@@ -138,8 +138,8 @@ window.PLAYERS = [
   "team": "ARI",
   "pos": "RB",
   "bye": 14,
-  "tier": 5,
-  "posRank": 19,
+  "tier": 4,
+  "posRank": 13,
   "adp": 12,
   "boardRank": 12,
   "aav": 46
@@ -247,7 +247,7 @@ window.PLAYERS = [
   "pos": "RB",
   "bye": 11,
   "tier": 4,
-  "posRank": 14,
+  "posRank": 15,
   "adp": 21,
   "boardRank": 21,
   "aav": 34
@@ -439,7 +439,7 @@ window.PLAYERS = [
   "pos": "RB",
   "bye": 11,
   "tier": 4,
-  "posRank": 13,
+  "posRank": 14,
   "adp": 37,
   "boardRank": 37,
   "aav": 22
@@ -463,7 +463,7 @@ window.PLAYERS = [
   "pos": "RB",
   "bye": 8,
   "tier": 4,
-  "posRank": 15,
+  "posRank": 16,
   "adp": 39,
   "boardRank": 39,
   "aav": 21
@@ -475,7 +475,7 @@ window.PLAYERS = [
   "pos": "RB",
   "bye": 11,
   "tier": 4,
-  "posRank": 16,
+  "posRank": 17,
   "adp": 40,
   "boardRank": 40,
   "aav": 20
@@ -703,7 +703,7 @@ window.PLAYERS = [
   "pos": "RB",
   "bye": 11,
   "tier": 4,
-  "posRank": 17,
+  "posRank": 18,
   "adp": 59,
   "boardRank": 59,
   "aav": 9
@@ -715,7 +715,7 @@ window.PLAYERS = [
   "pos": "RB",
   "bye": 7,
   "tier": 4,
-  "posRank": 18,
+  "posRank": 19,
   "adp": 60,
   "boardRank": 60,
   "aav": 9

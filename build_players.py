@@ -36,6 +36,7 @@ RB_OVERRIDE = [
     ("Omarion Hampton",2),("Jonathan Taylor",2),
     ("Saquon Barkley",3),("Kenneth Walker III",3),("De'Von Achane",3),
     ("Derrick Henry",3),("Chase Brown",3),
+    ("Jeremiyah Love",4),
     ("Kyren Williams",4),("Josh Jacobs",4),("Cam Skattebo",4),
     ("Quinshon Judkins",4),("TreVeyon Henderson",4),("Bhayshul Tuten",4),
 ]

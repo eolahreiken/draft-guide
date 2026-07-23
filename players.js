@@ -9,8 +9,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 1,
   "adp": 1,
-  "boardRank": 1,
-  "aav": 57
+  "boardRank": 1
  },
  {
   "id": "Bijan Robinson",
@@ -21,8 +20,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 2,
   "adp": 2,
-  "boardRank": 2,
-  "aav": 56
+  "boardRank": 2
  },
  {
   "id": "Puka Nacua",
@@ -33,8 +31,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 1,
   "adp": 3,
-  "boardRank": 3,
-  "aav": 56
+  "boardRank": 3
  },
  {
   "id": "Ja'Marr Chase",
@@ -45,8 +42,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 2,
   "adp": 4,
-  "boardRank": 4,
-  "aav": 55
+  "boardRank": 4
  },
  {
   "id": "Jaxon Smith-Njigba",
@@ -57,8 +53,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 3,
   "adp": 5,
-  "boardRank": 5,
-  "aav": 54
+  "boardRank": 5
  },
  {
   "id": "Christian McCaffrey",
@@ -69,8 +64,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 4,
   "adp": 6,
-  "boardRank": 6,
-  "aav": 53
+  "boardRank": 6
  },
  {
   "id": "Jonathan Taylor",
@@ -81,8 +75,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 7,
   "adp": 7,
-  "boardRank": 7,
-  "aav": 52
+  "boardRank": 7
  },
  {
   "id": "Amon-Ra St. Brown",
@@ -93,8 +86,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 4,
   "adp": 8,
-  "boardRank": 8,
-  "aav": 52
+  "boardRank": 8
  },
  {
   "id": "CeeDee Lamb",
@@ -105,8 +97,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 5,
   "adp": 9,
-  "boardRank": 9,
-  "aav": 51
+  "boardRank": 9
  },
  {
   "id": "De'Von Achane",
@@ -117,8 +108,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 10,
   "adp": 10,
-  "boardRank": 10,
-  "aav": 50
+  "boardRank": 10
  },
  {
   "id": "Justin Jefferson",
@@ -129,8 +119,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 6,
   "adp": 11,
-  "boardRank": 11,
-  "aav": 48
+  "boardRank": 11
  },
  {
   "id": "Jeremiyah Love",
@@ -141,8 +130,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 13,
   "adp": 12,
-  "boardRank": 12,
-  "aav": 46
+  "boardRank": 12
  },
  {
   "id": "Drake London",
@@ -153,8 +141,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 7,
   "adp": 13,
-  "boardRank": 13,
-  "aav": 45
+  "boardRank": 13
  },
  {
   "id": "Rashee Rice",
@@ -165,8 +152,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 9,
   "adp": 14,
-  "boardRank": 14,
-  "aav": 43
+  "boardRank": 14
  },
  {
   "id": "James Cook III",
@@ -177,8 +163,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 5,
   "adp": 15,
-  "boardRank": 15,
-  "aav": 42
+  "boardRank": 15
  },
  {
   "id": "Trey McBride",
@@ -189,8 +174,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 1,
   "adp": 16,
-  "boardRank": 16,
-  "aav": 40
+  "boardRank": 16
  },
  {
   "id": "Ashton Jeanty",
@@ -201,8 +185,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 3,
   "adp": 17,
-  "boardRank": 17,
-  "aav": 38
+  "boardRank": 17
  },
  {
   "id": "Omarion Hampton",
@@ -213,8 +196,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 6,
   "adp": 18,
-  "boardRank": 18,
-  "aav": 37
+  "boardRank": 18
  },
  {
   "id": "Saquon Barkley",
@@ -225,8 +207,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 8,
   "adp": 19,
-  "boardRank": 19,
-  "aav": 36
+  "boardRank": 19
  },
  {
   "id": "Derrick Henry",
@@ -237,8 +218,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 11,
   "adp": 20,
-  "boardRank": 20,
-  "aav": 35
+  "boardRank": 20
  },
  {
   "id": "Josh Jacobs",
@@ -249,8 +229,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 15,
   "adp": 21,
-  "boardRank": 21,
-  "aav": 34
+  "boardRank": 21
  },
  {
   "id": "Chase Brown",
@@ -261,8 +240,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 12,
   "adp": 22,
-  "boardRank": 22,
-  "aav": 33
+  "boardRank": 22
  },
  {
   "id": "Breece Hall",
@@ -273,8 +251,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 20,
   "adp": 23,
-  "boardRank": 23,
-  "aav": 32
+  "boardRank": 23
  },
  {
   "id": "Brock Bowers",
@@ -285,8 +262,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 2,
   "adp": 24,
-  "boardRank": 24,
-  "aav": 32
+  "boardRank": 24
  },
  {
   "id": "Nico Collins",
@@ -297,8 +273,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 10,
   "adp": 25,
-  "boardRank": 25,
-  "aav": 31
+  "boardRank": 25
  },
  {
   "id": "Garrett Wilson",
@@ -309,8 +284,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 22,
   "adp": 26,
-  "boardRank": 26,
-  "aav": 30
+  "boardRank": 26
  },
  {
   "id": "A.J. Brown",
@@ -321,8 +295,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 8,
   "adp": 27,
-  "boardRank": 27,
-  "aav": 30
+  "boardRank": 27
  },
  {
   "id": "Chris Olave",
@@ -333,8 +306,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 20,
   "adp": 28,
-  "boardRank": 28,
-  "aav": 29
+  "boardRank": 28
  },
  {
   "id": "George Pickens",
@@ -345,8 +317,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 12,
   "adp": 29,
-  "boardRank": 29,
-  "aav": 28
+  "boardRank": 29
  },
  {
   "id": "Kenneth Walker III",
@@ -357,8 +328,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 9,
   "adp": 30,
-  "boardRank": 30,
-  "aav": 27
+  "boardRank": 30
  },
  {
   "id": "Javonte Williams",
@@ -369,8 +339,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 21,
   "adp": 31,
-  "boardRank": 31,
-  "aav": 26
+  "boardRank": 31
  },
  {
   "id": "Tetairoa McMillan",
@@ -381,8 +350,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 19,
   "adp": 32,
-  "boardRank": 32,
-  "aav": 25
+  "boardRank": 32
  },
  {
   "id": "Zay Flowers",
@@ -393,8 +361,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 16,
   "adp": 33,
-  "boardRank": 33,
-  "aav": 24
+  "boardRank": 33
  },
  {
   "id": "DeVonta Smith",
@@ -405,8 +372,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 11,
   "adp": 34,
-  "boardRank": 34,
-  "aav": 23
+  "boardRank": 34
  },
  {
   "id": "Emeka Egbuka",
@@ -417,8 +383,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 14,
   "adp": 35,
-  "boardRank": 35,
-  "aav": 22
+  "boardRank": 35
  },
  {
   "id": "Josh Allen",
@@ -429,8 +394,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 1,
   "adp": 36,
-  "boardRank": 36,
-  "aav": 22
+  "boardRank": 36
  },
  {
   "id": "Kyren Williams",
@@ -441,8 +405,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 14,
   "adp": 37,
-  "boardRank": 37,
-  "aav": 22
+  "boardRank": 37
  },
  {
   "id": "Travis Etienne Jr.",
@@ -453,8 +416,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 22,
   "adp": 38,
-  "boardRank": 38,
-  "aav": 21
+  "boardRank": 38
  },
  {
   "id": "Cam Skattebo",
@@ -465,8 +427,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 16,
   "adp": 39,
-  "boardRank": 39,
-  "aav": 21
+  "boardRank": 39
  },
  {
   "id": "Quinshon Judkins",
@@ -477,8 +438,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 17,
   "adp": 40,
-  "boardRank": 40,
-  "aav": 20
+  "boardRank": 40
  },
  {
   "id": "Bucky Irving",
@@ -489,8 +449,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 23,
   "adp": 41,
-  "boardRank": 41,
-  "aav": 19
+  "boardRank": 41
  },
  {
   "id": "Malik Nabers",
@@ -501,8 +460,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 23,
   "adp": 42,
-  "boardRank": 42,
-  "aav": 19
+  "boardRank": 42
  },
  {
   "id": "Davante Adams",
@@ -513,8 +471,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 17,
   "adp": 43,
-  "boardRank": 43,
-  "aav": 18
+  "boardRank": 43
  },
  {
   "id": "Ladd McConkey",
@@ -525,8 +482,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 15,
   "adp": 44,
-  "boardRank": 44,
-  "aav": 17
+  "boardRank": 44
  },
  {
   "id": "Terry McLaurin",
@@ -537,8 +493,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 21,
   "adp": 45,
-  "boardRank": 45,
-  "aav": 17
+  "boardRank": 45
  },
  {
   "id": "Tee Higgins",
@@ -549,8 +504,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 13,
   "adp": 46,
-  "boardRank": 46,
-  "aav": 15
+  "boardRank": 46
  },
  {
   "id": "Jaylen Waddle",
@@ -561,8 +515,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 25,
   "adp": 47,
-  "boardRank": 47,
-  "aav": 15
+  "boardRank": 47
  },
  {
   "id": "Jameson Williams",
@@ -573,8 +526,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 27,
   "adp": 48,
-  "boardRank": 48,
-  "aav": 14
+  "boardRank": 48
  },
  {
   "id": "Colston Loveland",
@@ -585,8 +537,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 3,
   "adp": 49,
-  "boardRank": 49,
-  "aav": 13
+  "boardRank": 49
  },
  {
   "id": "Tyler Warren",
@@ -597,8 +548,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 4,
   "adp": 50,
-  "boardRank": 50,
-  "aav": 13
+  "boardRank": 50
  },
  {
   "id": "Carnell Tate",
@@ -609,8 +559,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 30,
   "adp": 51,
-  "boardRank": 51,
-  "aav": 12
+  "boardRank": 51
  },
  {
   "id": "Rome Odunze",
@@ -621,8 +570,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 28,
   "adp": 52,
-  "boardRank": 52,
-  "aav": 11
+  "boardRank": 52
  },
  {
   "id": "Luther Burden III",
@@ -633,8 +581,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 24,
   "adp": 53,
-  "boardRank": 53,
-  "aav": 11
+  "boardRank": 53
  },
  {
   "id": "DJ Moore",
@@ -645,8 +592,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 31,
   "adp": 54,
-  "boardRank": 54,
-  "aav": 10
+  "boardRank": 54
  },
  {
   "id": "Jayden Daniels",
@@ -657,8 +603,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 2,
   "adp": 55,
-  "boardRank": 55,
-  "aav": 10
+  "boardRank": 55
  },
  {
   "id": "Lamar Jackson",
@@ -669,8 +614,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 3,
   "adp": 56,
-  "boardRank": 56,
-  "aav": 10
+  "boardRank": 56
  },
  {
   "id": "Drake Maye",
@@ -681,8 +625,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 4,
   "adp": 57,
-  "boardRank": 57,
-  "aav": 10
+  "boardRank": 57
  },
  {
   "id": "Jalen Hurts",
@@ -693,8 +636,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 5,
   "adp": 58,
-  "boardRank": 58,
-  "aav": 9
+  "boardRank": 58
  },
  {
   "id": "TreVeyon Henderson",
@@ -705,8 +647,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 18,
   "adp": 59,
-  "boardRank": 59,
-  "aav": 9
+  "boardRank": 59
  },
  {
   "id": "Bhayshul Tuten",
@@ -717,8 +658,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 19,
   "adp": 60,
-  "boardRank": 60,
-  "aav": 9
+  "boardRank": 60
  },
  {
   "id": "Jadarian Price",
@@ -729,8 +669,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 24,
   "adp": 61,
-  "boardRank": 61,
-  "aav": 8
+  "boardRank": 61
  },
  {
   "id": "D'Andre Swift",
@@ -741,8 +680,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 25,
   "adp": 62,
-  "boardRank": 62,
-  "aav": 8
+  "boardRank": 62
  },
  {
   "id": "David Montgomery",
@@ -753,8 +691,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 26,
   "adp": 63,
-  "boardRank": 63,
-  "aav": 8
+  "boardRank": 63
  },
  {
   "id": "Tony Pollard",
@@ -765,8 +702,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 27,
   "adp": 64,
-  "boardRank": 64,
-  "aav": 7
+  "boardRank": 64
  },
  {
   "id": "Marvin Harrison Jr.",
@@ -777,8 +713,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 26,
   "adp": 65,
-  "boardRank": 65,
-  "aav": 7
+  "boardRank": 65
  },
  {
   "id": "Courtland Sutton",
@@ -789,8 +724,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 32,
   "adp": 66,
-  "boardRank": 66,
-  "aav": 7
+  "boardRank": 66
  },
  {
   "id": "Michael Pittman Jr.",
@@ -801,8 +735,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 33,
   "adp": 67,
-  "boardRank": 67,
-  "aav": 7
+  "boardRank": 67
  },
  {
   "id": "DK Metcalf",
@@ -813,8 +746,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 34,
   "adp": 68,
-  "boardRank": 68,
-  "aav": 6
+  "boardRank": 68
  },
  {
   "id": "Alec Pierce",
@@ -825,8 +757,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 35,
   "adp": 69,
-  "boardRank": 69,
-  "aav": 6
+  "boardRank": 69
  },
  {
   "id": "Jordyn Tyson",
@@ -837,8 +768,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 36,
   "adp": 70,
-  "boardRank": 70,
-  "aav": 6
+  "boardRank": 70
  },
  {
   "id": "Kyle Pitts Sr.",
@@ -849,8 +779,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 5,
   "adp": 71,
-  "boardRank": 71,
-  "aav": 6
+  "boardRank": 71
  },
  {
   "id": "Harold Fannin Jr.",
@@ -861,8 +790,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 6,
   "adp": 72,
-  "boardRank": 72,
-  "aav": 6
+  "boardRank": 72
  },
  {
   "id": "Sam LaPorta",
@@ -873,8 +801,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 7,
   "adp": 73,
-  "boardRank": 73,
-  "aav": 6
+  "boardRank": 73
  },
  {
   "id": "Joe Burrow",
@@ -885,8 +812,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 6,
   "adp": 74,
-  "boardRank": 74,
-  "aav": 5
+  "boardRank": 74
  },
  {
   "id": "Jaxson Dart",
@@ -897,8 +823,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 7,
   "adp": 75,
-  "boardRank": 75,
-  "aav": 5
+  "boardRank": 75
  },
  {
   "id": "Parker Washington",
@@ -909,8 +834,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 37,
   "adp": 76,
-  "boardRank": 76,
-  "aav": 5
+  "boardRank": 76
  },
  {
   "id": "Christian Watson",
@@ -921,8 +845,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 29,
   "adp": 77,
-  "boardRank": 77,
-  "aav": 5
+  "boardRank": 77
  },
  {
   "id": "Matthew Golden",
@@ -933,8 +856,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 38,
   "adp": 78,
-  "boardRank": 78,
-  "aav": 4
+  "boardRank": 78
  },
  {
   "id": "Mike Evans",
@@ -945,8 +867,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 18,
   "adp": 79,
-  "boardRank": 79,
-  "aav": 4
+  "boardRank": 79
  },
  {
   "id": "Brian Thomas Jr.",
@@ -957,8 +878,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 39,
   "adp": 80,
-  "boardRank": 80,
-  "aav": 4
+  "boardRank": 80
  },
  {
   "id": "Jakobi Meyers",
@@ -969,8 +889,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 40,
   "adp": 81,
-  "boardRank": 81,
-  "aav": 4
+  "boardRank": 81
  },
  {
   "id": "Trevor Lawrence",
@@ -981,8 +900,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 8,
   "adp": 82,
-  "boardRank": 82,
-  "aav": 4
+  "boardRank": 82
  },
  {
   "id": "Dak Prescott",
@@ -993,8 +911,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 9,
   "adp": 83,
-  "boardRank": 83,
-  "aav": 4
+  "boardRank": 83
  },
  {
   "id": "Bo Nix",
@@ -1005,8 +922,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 10,
   "adp": 84,
-  "boardRank": 84,
-  "aav": 4
+  "boardRank": 84
  },
  {
   "id": "Brock Purdy",
@@ -1017,8 +933,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 11,
   "adp": 85,
-  "boardRank": 85,
-  "aav": 4
+  "boardRank": 85
  },
  {
   "id": "Matthew Stafford",
@@ -1029,8 +944,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 12,
   "adp": 86,
-  "boardRank": 86,
-  "aav": 4
+  "boardRank": 86
  },
  {
   "id": "Caleb Williams",
@@ -1041,8 +955,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 13,
   "adp": 87,
-  "boardRank": 87,
-  "aav": 3
+  "boardRank": 87
  },
  {
   "id": "Wan'Dale Robinson",
@@ -1053,8 +966,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 41,
   "adp": 88,
-  "boardRank": 88,
-  "aav": 3
+  "boardRank": 88
  },
  {
   "id": "Makai Lemon",
@@ -1065,8 +977,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 42,
   "adp": 89,
-  "boardRank": 89,
-  "aav": 3
+  "boardRank": 89
  },
  {
   "id": "Michael Wilson",
@@ -1077,8 +988,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 43,
   "adp": 90,
-  "boardRank": 90,
-  "aav": 3
+  "boardRank": 90
  },
  {
   "id": "Ricky Pearsall",
@@ -1089,8 +999,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 44,
   "adp": 91,
-  "boardRank": 91,
-  "aav": 3
+  "boardRank": 91
  },
  {
   "id": "Jordan Addison",
@@ -1101,8 +1010,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 45,
   "adp": 92,
-  "boardRank": 92,
-  "aav": 3
+  "boardRank": 92
  },
  {
   "id": "Justin Herbert",
@@ -1113,8 +1021,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 14,
   "adp": 93,
-  "boardRank": 93,
-  "aav": 3
+  "boardRank": 93
  },
  {
   "id": "Patrick Mahomes",
@@ -1125,8 +1032,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 15,
   "adp": 94,
-  "boardRank": 94,
-  "aav": 3
+  "boardRank": 94
  },
  {
   "id": "Jaylen Warren",
@@ -1137,8 +1043,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 28,
   "adp": 95,
-  "boardRank": 95,
-  "aav": 3
+  "boardRank": 95
  },
  {
   "id": "Rhamondre Stevenson",
@@ -1149,8 +1054,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 29,
   "adp": 96,
-  "boardRank": 96,
-  "aav": 2
+  "boardRank": 96
  },
  {
   "id": "Rico Dowdle",
@@ -1161,8 +1065,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 30,
   "adp": 97,
-  "boardRank": 97,
-  "aav": 2
+  "boardRank": 97
  },
  {
   "id": "Chuba Hubbard",
@@ -1173,8 +1076,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 31,
   "adp": 98,
-  "boardRank": 98,
-  "aav": 2
+  "boardRank": 98
  },
  {
   "id": "Aaron Jones Sr.",
@@ -1185,8 +1087,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 32,
   "adp": 99,
-  "boardRank": 99,
-  "aav": 2
+  "boardRank": 99
  },
  {
   "id": "Kenny Gainwell",
@@ -1197,8 +1098,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 33,
   "adp": 100,
-  "boardRank": 100,
-  "aav": 2
+  "boardRank": 100
  },
  {
   "id": "George Kittle",
@@ -1209,8 +1109,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 8,
   "adp": 101,
-  "boardRank": 101,
-  "aav": 2
+  "boardRank": 101
  },
  {
   "id": "Dallas Goedert",
@@ -1221,8 +1120,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 9,
   "adp": 102,
-  "boardRank": 102,
-  "aav": 2
+  "boardRank": 102
  },
  {
   "id": "Travis Kelce",
@@ -1233,8 +1131,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 10,
   "adp": 103,
-  "boardRank": 103,
-  "aav": 2
+  "boardRank": 103
  },
  {
   "id": "Jake Ferguson",
@@ -1245,8 +1142,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 11,
   "adp": 104,
-  "boardRank": 104,
-  "aav": 2
+  "boardRank": 104
  },
  {
   "id": "Rachaad White",
@@ -1257,8 +1153,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 34,
   "adp": 105,
-  "boardRank": 105,
-  "aav": 2
+  "boardRank": 105
  },
  {
   "id": "J.K. Dobbins",
@@ -1269,8 +1164,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 35,
   "adp": 106,
-  "boardRank": 106,
-  "aav": 2
+  "boardRank": 106
  },
  {
   "id": "RJ Harvey",
@@ -1281,8 +1175,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 36,
   "adp": 107,
-  "boardRank": 107,
-  "aav": 2
+  "boardRank": 107
  },
  {
   "id": "Kyle Monangai",
@@ -1293,8 +1186,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 37,
   "adp": 108,
-  "boardRank": 108,
-  "aav": 2
+  "boardRank": 108
  },
  {
   "id": "Mark Andrews",
@@ -1305,8 +1197,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 12,
   "adp": 109,
-  "boardRank": 109,
-  "aav": 2
+  "boardRank": 109
  },
  {
   "id": "Tucker Kraft",
@@ -1317,8 +1208,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 13,
   "adp": 110,
-  "boardRank": 110,
-  "aav": 2
+  "boardRank": 110
  },
  {
   "id": "T.J. Hockenson",
@@ -1329,8 +1219,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 14,
   "adp": 111,
-  "boardRank": 111,
-  "aav": 2
+  "boardRank": 111
  },
  {
   "id": "Khalil Shakir",
@@ -1341,8 +1230,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 46,
   "adp": 112,
-  "boardRank": 112,
-  "aav": 2
+  "boardRank": 112
  },
  {
   "id": "Jayden Reed",
@@ -1353,8 +1241,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 47,
   "adp": 113,
-  "boardRank": 113,
-  "aav": 2
+  "boardRank": 113
  },
  {
   "id": "Josh Downs",
@@ -1365,8 +1252,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 48,
   "adp": 114,
-  "boardRank": 114,
-  "aav": 2
+  "boardRank": 114
  },
  {
   "id": "Jonathon Brooks",
@@ -1377,8 +1263,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 38,
   "adp": 115,
-  "boardRank": 115,
-  "aav": 2
+  "boardRank": 115
  },
  {
   "id": "Kenyon Sadiq",
@@ -1389,8 +1274,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 15,
   "adp": 116,
-  "boardRank": 116,
-  "aav": 2
+  "boardRank": 116
  },
  {
   "id": "Isaiah Likely",
@@ -1401,8 +1285,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 16,
   "adp": 117,
-  "boardRank": 117,
-  "aav": 2
+  "boardRank": 117
  },
  {
   "id": "Dalton Kincaid",
@@ -1413,8 +1296,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 17,
   "adp": 118,
-  "boardRank": 118,
-  "aav": 2
+  "boardRank": 118
  },
  {
   "id": "Hunter Henry",
@@ -1425,8 +1307,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 18,
   "adp": 119,
-  "boardRank": 119,
-  "aav": 2
+  "boardRank": 119
  },
  {
   "id": "Jacory Croskey-Merritt",
@@ -1437,8 +1318,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 39,
   "adp": 120,
-  "boardRank": 120,
-  "aav": 2
+  "boardRank": 120
  },
  {
   "id": "Blake Corum",
@@ -1449,8 +1329,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 40,
   "adp": 121,
-  "boardRank": 121,
-  "aav": 1
+  "boardRank": 121
  },
  {
   "id": "Woody Marks",
@@ -1461,8 +1340,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 41,
   "adp": 122,
-  "boardRank": 122,
-  "aav": 1
+  "boardRank": 122
  },
  {
   "id": "Jordan Mason",
@@ -1473,8 +1351,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 42,
   "adp": 123,
-  "boardRank": 123,
-  "aav": 1
+  "boardRank": 123
  },
  {
   "id": "KC Concepcion",
@@ -1485,8 +1362,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 49,
   "adp": 124,
-  "boardRank": 124,
-  "aav": 1
+  "boardRank": 124
  },
  {
   "id": "Chris Godwin Jr.",
@@ -1497,8 +1373,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 50,
   "adp": 125,
-  "boardRank": 125,
-  "aav": 1
+  "boardRank": 125
  },
  {
   "id": "Xavier Worthy",
@@ -1509,8 +1384,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 51,
   "adp": 126,
-  "boardRank": 126,
-  "aav": 1
+  "boardRank": 126
  },
  {
   "id": "Romeo Doubs",
@@ -1521,8 +1395,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 52,
   "adp": 127,
-  "boardRank": 127,
-  "aav": 1
+  "boardRank": 127
  },
  {
   "id": "Quentin Johnston",
@@ -1533,8 +1406,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 53,
   "adp": 128,
-  "boardRank": 128,
-  "aav": 1
+  "boardRank": 128
  },
  {
   "id": "Jayden Higgins",
@@ -1545,8 +1417,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 54,
   "adp": 129,
-  "boardRank": 129,
-  "aav": 1
+  "boardRank": 129
  },
  {
   "id": "Jerry Jeudy",
@@ -1557,8 +1428,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 55,
   "adp": 130,
-  "boardRank": 130,
-  "aav": 1
+  "boardRank": 130
  },
  {
   "id": "Jalen Coker",
@@ -1569,8 +1439,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 56,
   "adp": 131,
-  "boardRank": 131,
-  "aav": 1
+  "boardRank": 131
  },
  {
   "id": "Rashid Shaheed",
@@ -1581,8 +1450,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 57,
   "adp": 132,
-  "boardRank": 132,
-  "aav": 1
+  "boardRank": 132
  },
  {
   "id": "Kyler Murray",
@@ -1593,8 +1461,7 @@ window.PLAYERS = [
   "tier": 4,
   "posRank": 16,
   "adp": 133,
-  "boardRank": 133,
-  "aav": 1
+  "boardRank": 133
  },
  {
   "id": "Tyler Shough",
@@ -1605,8 +1472,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 17,
   "adp": 134,
-  "boardRank": 134,
-  "aav": 1
+  "boardRank": 134
  },
  {
   "id": "Daniel Jones",
@@ -1617,8 +1483,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 18,
   "adp": 135,
-  "boardRank": 135,
-  "aav": 1
+  "boardRank": 135
  },
  {
   "id": "Jared Goff",
@@ -1629,8 +1494,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 19,
   "adp": 136,
-  "boardRank": 136,
-  "aav": 1
+  "boardRank": 136
  },
  {
   "id": "Zach Charbonnet",
@@ -1641,8 +1505,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 43,
   "adp": 137,
-  "boardRank": 137,
-  "aav": 1
+  "boardRank": 137
  },
  {
   "id": "Alvin Kamara",
@@ -1653,8 +1516,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 44,
   "adp": 138,
-  "boardRank": 138,
-  "aav": 1
+  "boardRank": 138
  },
  {
   "id": "Isiah Pacheco",
@@ -1665,8 +1527,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 45,
   "adp": 139,
-  "boardRank": 139,
-  "aav": 1
+  "boardRank": 139
  },
  {
   "id": "Chris Rodriguez Jr.",
@@ -1677,8 +1538,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 46,
   "adp": 140,
-  "boardRank": 140,
-  "aav": 1
+  "boardRank": 140
  },
  {
   "id": "Braelon Allen",
@@ -1689,8 +1549,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 47,
   "adp": 141,
-  "boardRank": 141,
-  "aav": 1
+  "boardRank": 141
  },
  {
   "id": "Tank Bigsby",
@@ -1701,8 +1560,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 48,
   "adp": 142,
-  "boardRank": 142,
-  "aav": 1
+  "boardRank": 142
  },
  {
   "id": "Jalen McMillan",
@@ -1713,8 +1571,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 58,
   "adp": 143,
-  "boardRank": 143,
-  "aav": 1
+  "boardRank": 143
  },
  {
   "id": "Calvin Ridley",
@@ -1725,8 +1582,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 59,
   "adp": 144,
-  "boardRank": 144,
-  "aav": 1
+  "boardRank": 144
  },
  {
   "id": "Denzel Boston",
@@ -1737,8 +1593,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 60,
   "adp": 145,
-  "boardRank": 145,
-  "aav": 1
+  "boardRank": 145
  },
  {
   "id": "Travis Hunter",
@@ -1749,8 +1604,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 61,
   "adp": 146,
-  "boardRank": 146,
-  "aav": 1
+  "boardRank": 146
  },
  {
   "id": "Germie Bernard",
@@ -1761,8 +1615,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 62,
   "adp": 147,
-  "boardRank": 147,
-  "aav": 1
+  "boardRank": 147
  },
  {
   "id": "Antonio Williams",
@@ -1773,8 +1626,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 63,
   "adp": 148,
-  "boardRank": 148,
-  "aav": 1
+  "boardRank": 148
  },
  {
   "id": "Baker Mayfield",
@@ -1785,8 +1637,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 20,
   "adp": 149,
-  "boardRank": 149,
-  "aav": 1
+  "boardRank": 149
  },
  {
   "id": "Malik Willis",
@@ -1797,8 +1648,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 21,
   "adp": 150,
-  "boardRank": 150,
-  "aav": 1
+  "boardRank": 150
  },
  {
   "id": "Adonai Mitchell",
@@ -1809,8 +1659,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 64,
   "adp": 151,
-  "boardRank": 151,
-  "aav": 1
+  "boardRank": 151
  },
  {
   "id": "Omar Cooper Jr.",
@@ -1821,8 +1670,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 65,
   "adp": 152,
-  "boardRank": 152,
-  "aav": 1
+  "boardRank": 152
  },
  {
   "id": "Tre Tucker",
@@ -1833,8 +1681,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 66,
   "adp": 153,
-  "boardRank": 153,
-  "aav": 1
+  "boardRank": 153
  },
  {
   "id": "Mike Washington Jr.",
@@ -1845,8 +1692,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 49,
   "adp": 154,
-  "boardRank": 154,
-  "aav": 1
+  "boardRank": 154
  },
  {
   "id": "Ray Davis",
@@ -1857,8 +1703,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 50,
   "adp": 155,
-  "boardRank": 155,
-  "aav": 1
+  "boardRank": 155
  },
  {
   "id": "Tyrone Tracy Jr.",
@@ -1869,8 +1714,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 51,
   "adp": 156,
-  "boardRank": 156,
-  "aav": 1
+  "boardRank": 156
  },
  {
   "id": "Brian Robinson Jr.",
@@ -1881,8 +1725,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 52,
   "adp": 157,
-  "boardRank": 157,
-  "aav": 1
+  "boardRank": 157
  },
  {
   "id": "Tyjae Spears",
@@ -1893,8 +1736,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 53,
   "adp": 158,
-  "boardRank": 158,
-  "aav": 1
+  "boardRank": 158
  },
  {
   "id": "Terrance Ferguson",
@@ -1905,8 +1747,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 19,
   "adp": 159,
-  "boardRank": 159,
-  "aav": 1
+  "boardRank": 159
  },
  {
   "id": "Juwan Johnson",
@@ -1917,8 +1758,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 20,
   "adp": 160,
-  "boardRank": 160,
-  "aav": 1
+  "boardRank": 160
  },
  {
   "id": "Jalen Nailor",
@@ -1929,8 +1769,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 67,
   "adp": 161,
-  "boardRank": 161,
-  "aav": 0
+  "boardRank": 161
  },
  {
   "id": "Rashod Bateman",
@@ -1941,8 +1780,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 68,
   "adp": 162,
-  "boardRank": 162,
-  "aav": 0
+  "boardRank": 162
  },
  {
   "id": "Jauan Jennings",
@@ -1953,8 +1791,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 69,
   "adp": 163,
-  "boardRank": 163,
-  "aav": 0
+  "boardRank": 163
  },
  {
   "id": "Jaylin Noel",
@@ -1965,8 +1802,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 70,
   "adp": 164,
-  "boardRank": 164,
-  "aav": 0
+  "boardRank": 164
  },
  {
   "id": "Darnell Mooney",
@@ -1977,8 +1813,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 71,
   "adp": 165,
-  "boardRank": 165,
-  "aav": 0
+  "boardRank": 165
  },
  {
   "id": "Tyler Allgeier",
@@ -1989,8 +1824,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 54,
   "adp": 166,
-  "boardRank": 166,
-  "aav": 0
+  "boardRank": 166
  },
  {
   "id": "James Conner",
@@ -2001,8 +1835,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 55,
   "adp": 167,
-  "boardRank": 167,
-  "aav": 0
+  "boardRank": 167
  },
  {
   "id": "Keaton Mitchell",
@@ -2013,8 +1846,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 56,
   "adp": 168,
-  "boardRank": 168,
-  "aav": 0
+  "boardRank": 168
  },
  {
   "id": "Broncos",
@@ -2025,8 +1857,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 1,
   "adp": 169,
-  "boardRank": 169,
-  "aav": 1
+  "boardRank": 169
  },
  {
   "id": "Texans",
@@ -2037,8 +1868,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 2,
   "adp": 170,
-  "boardRank": 170,
-  "aav": 1
+  "boardRank": 170
  },
  {
   "id": "Steelers",
@@ -2049,8 +1879,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 3,
   "adp": 171,
-  "boardRank": 171,
-  "aav": 1
+  "boardRank": 171
  },
  {
   "id": "Seahawks",
@@ -2061,8 +1890,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 4,
   "adp": 172,
-  "boardRank": 172,
-  "aav": 1
+  "boardRank": 172
  },
  {
   "id": "Rams",
@@ -2073,8 +1901,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 5,
   "adp": 173,
-  "boardRank": 173,
-  "aav": 1
+  "boardRank": 173
  },
  {
   "id": "Ravens",
@@ -2085,8 +1912,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 6,
   "adp": 174,
-  "boardRank": 174,
-  "aav": 1
+  "boardRank": 174
  },
  {
   "id": "Eagles",
@@ -2097,8 +1923,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 7,
   "adp": 175,
-  "boardRank": 175,
-  "aav": 1
+  "boardRank": 175
  },
  {
   "id": "Browns",
@@ -2109,8 +1934,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 8,
   "adp": 176,
-  "boardRank": 176,
-  "aav": 1
+  "boardRank": 176
  },
  {
   "id": "Patriots",
@@ -2121,8 +1945,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 9,
   "adp": 177,
-  "boardRank": 177,
-  "aav": 1
+  "boardRank": 177
  },
  {
   "id": "Lions",
@@ -2133,8 +1956,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 10,
   "adp": 178,
-  "boardRank": 178,
-  "aav": 1
+  "boardRank": 178
  },
  {
   "id": "Chiefs",
@@ -2145,8 +1967,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 11,
   "adp": 179,
-  "boardRank": 179,
-  "aav": 0
+  "boardRank": 179
  },
  {
   "id": "Chargers",
@@ -2157,8 +1978,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 12,
   "adp": 180,
-  "boardRank": 180,
-  "aav": 0
+  "boardRank": 180
  },
  {
   "id": "Brandon Aubrey",
@@ -2169,8 +1989,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 1,
   "adp": 181,
-  "boardRank": 181,
-  "aav": 1
+  "boardRank": 181
  },
  {
   "id": "Cameron Dicker",
@@ -2181,8 +2000,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 2,
   "adp": 182,
-  "boardRank": 182,
-  "aav": 1
+  "boardRank": 182
  },
  {
   "id": "Jason Myers",
@@ -2193,8 +2011,7 @@ window.PLAYERS = [
   "tier": 1,
   "posRank": 3,
   "adp": 183,
-  "boardRank": 183,
-  "aav": 1
+  "boardRank": 183
  },
  {
   "id": "Harrison Mevis",
@@ -2205,8 +2022,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 4,
   "adp": 184,
-  "boardRank": 184,
-  "aav": 1
+  "boardRank": 184
  },
  {
   "id": "Ka'imi Fairbairn",
@@ -2217,8 +2033,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 5,
   "adp": 185,
-  "boardRank": 185,
-  "aav": 1
+  "boardRank": 185
  },
  {
   "id": "Eddy Pineiro",
@@ -2229,8 +2044,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 6,
   "adp": 186,
-  "boardRank": 186,
-  "aav": 1
+  "boardRank": 186
  },
  {
   "id": "Harrison Butker",
@@ -2241,8 +2055,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 7,
   "adp": 187,
-  "boardRank": 187,
-  "aav": 1
+  "boardRank": 187
  },
  {
   "id": "Cam Little",
@@ -2253,8 +2066,7 @@ window.PLAYERS = [
   "tier": 2,
   "posRank": 8,
   "adp": 188,
-  "boardRank": 188,
-  "aav": 1
+  "boardRank": 188
  },
  {
   "id": "Jake Bates",
@@ -2265,8 +2077,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 9,
   "adp": 189,
-  "boardRank": 189,
-  "aav": 1
+  "boardRank": 189
  },
  {
   "id": "Tyler Loop",
@@ -2277,8 +2088,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 10,
   "adp": 190,
-  "boardRank": 190,
-  "aav": 1
+  "boardRank": 190
  },
  {
   "id": "Cairo Santos",
@@ -2289,8 +2099,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 11,
   "adp": 191,
-  "boardRank": 191,
-  "aav": 0
+  "boardRank": 191
  },
  {
   "id": "Will Reichard",
@@ -2301,8 +2110,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 12,
   "adp": 192,
-  "boardRank": 192,
-  "aav": 0
+  "boardRank": 192
  },
  {
   "id": "Justice Hill",
@@ -2313,8 +2121,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 57,
   "adp": 193,
-  "boardRank": 193,
-  "aav": 0
+  "boardRank": 193
  },
  {
   "id": "Brenton Strange",
@@ -2325,8 +2132,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 21,
   "adp": 194,
-  "boardRank": 194,
-  "aav": 0
+  "boardRank": 194
  },
  {
   "id": "Jordan James",
@@ -2337,8 +2143,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 58,
   "adp": 195,
-  "boardRank": 195,
-  "aav": 0
+  "boardRank": 195
  },
  {
   "id": "Kaelon Black",
@@ -2349,8 +2154,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 59,
   "adp": 196,
-  "boardRank": 196,
-  "aav": 0
+  "boardRank": 196
  },
  {
   "id": "Chris Bell",
@@ -2361,8 +2165,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 72,
   "adp": 197,
-  "boardRank": 197,
-  "aav": 0
+  "boardRank": 197
  },
  {
   "id": "Jordan Love",
@@ -2373,8 +2176,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 22,
   "adp": 198,
-  "boardRank": 198,
-  "aav": 0
+  "boardRank": 198
  },
  {
   "id": "Cam Ward",
@@ -2385,8 +2187,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 23,
   "adp": 199,
-  "boardRank": 199,
-  "aav": 0
+  "boardRank": 199
  },
  {
   "id": "C.J. Stroud",
@@ -2397,8 +2198,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 24,
   "adp": 200,
-  "boardRank": 200,
-  "aav": 0
+  "boardRank": 200
  },
  {
   "id": "Jack Bech",
@@ -2409,8 +2209,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 73,
   "adp": 201,
-  "boardRank": 201,
-  "aav": 0
+  "boardRank": 201
  },
  {
   "id": "Deebo Samuel Sr.",
@@ -2421,8 +2220,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 74,
   "adp": 202,
-  "boardRank": 202,
-  "aav": 0
+  "boardRank": 202
  },
  {
   "id": "Stefon Diggs",
@@ -2433,8 +2231,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 75,
   "adp": 203,
-  "boardRank": 203,
-  "aav": 0
+  "boardRank": 203
  },
  {
   "id": "Tre Harris",
@@ -2445,8 +2242,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 76,
   "adp": 204,
-  "boardRank": 204,
-  "aav": 0
+  "boardRank": 204
  },
  {
   "id": "Isaac TeSlaa",
@@ -2457,8 +2253,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 77,
   "adp": 205,
-  "boardRank": 205,
-  "aav": 0
+  "boardRank": 205
  },
  {
   "id": "Pat Freiermuth",
@@ -2469,8 +2264,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 22,
   "adp": 206,
-  "boardRank": 206,
-  "aav": 0
+  "boardRank": 206
  },
  {
   "id": "Dalton Schultz",
@@ -2481,8 +2275,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 23,
   "adp": 207,
-  "boardRank": 207,
-  "aav": 0
+  "boardRank": 207
  },
  {
   "id": "Ryan Flournoy",
@@ -2493,8 +2286,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 78,
   "adp": 208,
-  "boardRank": 208,
-  "aav": 0
+  "boardRank": 208
  },
  {
   "id": "Brandon Aiyuk",
@@ -2505,8 +2297,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 79,
   "adp": 209,
-  "boardRank": 209,
-  "aav": 0
+  "boardRank": 209
  },
  {
   "id": "Cooper Kupp",
@@ -2517,8 +2308,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 80,
   "adp": 210,
-  "boardRank": 210,
-  "aav": 0
+  "boardRank": 210
  },
  {
   "id": "Tank Dell",
@@ -2529,8 +2319,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 81,
   "adp": 211,
-  "boardRank": 211,
-  "aav": 0
+  "boardRank": 211
  },
  {
   "id": "Kaytron Allen",
@@ -2541,8 +2330,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 60,
   "adp": 212,
-  "boardRank": 212,
-  "aav": 0
+  "boardRank": 212
  },
  {
   "id": "Nicholas Singleton",
@@ -2553,8 +2341,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 61,
   "adp": 213,
-  "boardRank": 213,
-  "aav": 0
+  "boardRank": 213
  },
  {
   "id": "Demond Claiborne",
@@ -2565,8 +2352,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 62,
   "adp": 214,
-  "boardRank": 214,
-  "aav": 0
+  "boardRank": 214
  },
  {
   "id": "Gunnar Helm",
@@ -2577,8 +2363,7 @@ window.PLAYERS = [
   "tier": 5,
   "posRank": 24,
   "adp": 215,
-  "boardRank": 215,
-  "aav": 0
+  "boardRank": 215
  },
  {
   "id": "Oronde Gadsden",
@@ -2589,8 +2374,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 25,
   "adp": 216,
-  "boardRank": 216,
-  "aav": 0
+  "boardRank": 216
  },
  {
   "id": "Chig Okonkwo",
@@ -2601,8 +2385,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 26,
   "adp": 217,
-  "boardRank": 217,
-  "aav": 0
+  "boardRank": 217
  },
  {
   "id": "Sam Darnold",
@@ -2613,8 +2396,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 25,
   "adp": 218,
-  "boardRank": 218,
-  "aav": 0
+  "boardRank": 218
  },
  {
   "id": "Bryce Young",
@@ -2625,8 +2407,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 26,
   "adp": 219,
-  "boardRank": 219,
-  "aav": 0
+  "boardRank": 219
  },
  {
   "id": "Fernando Mendoza",
@@ -2637,8 +2418,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 27,
   "adp": 220,
-  "boardRank": 220,
-  "aav": 0
+  "boardRank": 220
  },
  {
   "id": "Jonah Coleman",
@@ -2649,8 +2429,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 63,
   "adp": 221,
-  "boardRank": 221,
-  "aav": 0
+  "boardRank": 221
  },
  {
   "id": "Seth McGowan",
@@ -2661,8 +2440,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 64,
   "adp": 222,
-  "boardRank": 222,
-  "aav": 0
+  "boardRank": 222
  },
  {
   "id": "Emmett Johnson",
@@ -2673,8 +2451,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 65,
   "adp": 223,
-  "boardRank": 223,
-  "aav": 0
+  "boardRank": 223
  },
  {
   "id": "Zachariah Branch",
@@ -2685,8 +2462,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 82,
   "adp": 224,
-  "boardRank": 224,
-  "aav": 0
+  "boardRank": 224
  },
  {
   "id": "Dylan Sampson",
@@ -2697,8 +2473,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 66,
   "adp": 225,
-  "boardRank": 225,
-  "aav": 0
+  "boardRank": 225
  },
  {
   "id": "Samaje Perine",
@@ -2709,8 +2484,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 67,
   "adp": 226,
-  "boardRank": 226,
-  "aav": 0
+  "boardRank": 226
  },
  {
   "id": "Caleb Douglas",
@@ -2721,8 +2495,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 83,
   "adp": 227,
-  "boardRank": 227,
-  "aav": 0
+  "boardRank": 227
  },
  {
   "id": "Jalen Tolbert",
@@ -2733,8 +2506,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 84,
   "adp": 228,
-  "boardRank": 228,
-  "aav": 0
+  "boardRank": 228
  },
  {
   "id": "Malik Washington",
@@ -2745,8 +2517,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 85,
   "adp": 229,
-  "boardRank": 229,
-  "aav": 0
+  "boardRank": 229
  },
  {
   "id": "Christian Kirk",
@@ -2757,8 +2528,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 86,
   "adp": 230,
-  "boardRank": 230,
-  "aav": 0
+  "boardRank": 230
  },
  {
   "id": "Savion Williams",
@@ -2769,8 +2539,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 87,
   "adp": 231,
-  "boardRank": 231,
-  "aav": 0
+  "boardRank": 231
  },
  {
   "id": "Chris Brazzell II",
@@ -2781,8 +2550,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 88,
   "adp": 232,
-  "boardRank": 232,
-  "aav": 0
+  "boardRank": 232
  },
  {
   "id": "Tyreek Hill",
@@ -2793,8 +2561,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 89,
   "adp": 233,
-  "boardRank": 233,
-  "aav": 0
+  "boardRank": 233
  },
  {
   "id": "De'Zhaun Stribling",
@@ -2805,8 +2572,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 90,
   "adp": 234,
-  "boardRank": 234,
-  "aav": 0
+  "boardRank": 234
  },
  {
   "id": "Buccaneers",
@@ -2817,8 +2583,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 13,
   "adp": 235,
-  "boardRank": 235,
-  "aav": 0
+  "boardRank": 235
  },
  {
   "id": "Packers",
@@ -2829,8 +2594,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 14,
   "adp": 236,
-  "boardRank": 236,
-  "aav": 0
+  "boardRank": 236
  },
  {
   "id": "Chris Boswell",
@@ -2841,8 +2605,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 13,
   "adp": 237,
-  "boardRank": 237,
-  "aav": 0
+  "boardRank": 237
  },
  {
   "id": "Chase McLaughlin",
@@ -2853,8 +2616,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 14,
   "adp": 238,
-  "boardRank": 238,
-  "aav": 0
+  "boardRank": 238
  },
  {
   "id": "LeQuint Allen",
@@ -2865,8 +2627,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 68,
   "adp": 239,
-  "boardRank": 239,
-  "aav": 0
+  "boardRank": 239
  },
  {
   "id": "Jaylen Wright",
@@ -2877,8 +2638,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 69,
   "adp": 240,
-  "boardRank": 240,
-  "aav": 0
+  "boardRank": 240
  },
  {
   "id": "Ollie Gordon II",
@@ -2889,8 +2649,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 70,
   "adp": 241,
-  "boardRank": 241,
-  "aav": 0
+  "boardRank": 241
  },
  {
   "id": "Kimani Vidal",
@@ -2901,8 +2660,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 71,
   "adp": 242,
-  "boardRank": 242,
-  "aav": 0
+  "boardRank": 242
  },
  {
   "id": "Adam Randall",
@@ -2913,8 +2671,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 72,
   "adp": 243,
-  "boardRank": 243,
-  "aav": 0
+  "boardRank": 243
  },
  {
   "id": "MarShawn Lloyd",
@@ -2925,8 +2682,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 73,
   "adp": 244,
-  "boardRank": 244,
-  "aav": 0
+  "boardRank": 244
  },
  {
   "id": "Emari Demercado",
@@ -2937,8 +2693,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 74,
   "adp": 245,
-  "boardRank": 245,
-  "aav": 0
+  "boardRank": 245
  },
  {
   "id": "Jaydon Blue",
@@ -2949,8 +2704,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 75,
   "adp": 246,
-  "boardRank": 246,
-  "aav": 0
+  "boardRank": 246
  },
  {
   "id": "Trey Benson",
@@ -2961,8 +2715,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 76,
   "adp": 247,
-  "boardRank": 247,
-  "aav": 0
+  "boardRank": 247
  },
  {
   "id": "Kaleb Johnson",
@@ -2973,8 +2726,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 77,
   "adp": 248,
-  "boardRank": 248,
-  "aav": 0
+  "boardRank": 248
  },
  {
   "id": "Ty Johnson",
@@ -2985,8 +2737,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 78,
   "adp": 249,
-  "boardRank": 249,
-  "aav": 0
+  "boardRank": 249
  },
  {
   "id": "Kyle Juszczyk",
@@ -2997,8 +2748,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 79,
   "adp": 250,
-  "boardRank": 250,
-  "aav": 0
+  "boardRank": 250
  },
  {
   "id": "Chris Brooks",
@@ -3009,8 +2759,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 80,
   "adp": 251,
-  "boardRank": 251,
-  "aav": 0
+  "boardRank": 251
  },
  {
   "id": "Jaguars",
@@ -3021,8 +2770,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 15,
   "adp": 254,
-  "boardRank": 252,
-  "aav": 0
+  "boardRank": 252
  },
  {
   "id": "Evan McPherson",
@@ -3033,8 +2781,7 @@ window.PLAYERS = [
   "tier": 3,
   "posRank": 15,
   "adp": 256,
-  "boardRank": 253,
-  "aav": 0
+  "boardRank": 253
  },
  {
   "id": "AJ Barner",
@@ -3045,8 +2792,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 27,
   "adp": 258,
-  "boardRank": 254,
-  "aav": 0
+  "boardRank": 254
  },
  {
   "id": "Greg Dulcich",
@@ -3057,8 +2803,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 28,
   "adp": 259,
-  "boardRank": 255,
-  "aav": 0
+  "boardRank": 255
  },
  {
   "id": "Cade Otton",
@@ -3069,8 +2814,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 29,
   "adp": 260,
-  "boardRank": 256,
-  "aav": 0
+  "boardRank": 256
  },
  {
   "id": "George Holani",
@@ -3081,8 +2825,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 81,
   "adp": 265,
-  "boardRank": 257,
-  "aav": 0
+  "boardRank": 257
  },
  {
   "id": "Isaiah Davis",
@@ -3093,8 +2836,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 82,
   "adp": 266,
-  "boardRank": 258,
-  "aav": 0
+  "boardRank": 258
  },
  {
   "id": "Geno Smith",
@@ -3105,8 +2847,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 28,
   "adp": 267,
-  "boardRank": 259,
-  "aav": 0
+  "boardRank": 259
  },
  {
   "id": "Aaron Rodgers",
@@ -3117,8 +2858,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 29,
   "adp": 268,
-  "boardRank": 260,
-  "aav": 0
+  "boardRank": 260
  },
  {
   "id": "Deshaun Watson",
@@ -3129,8 +2869,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 30,
   "adp": 269,
-  "boardRank": 261,
-  "aav": 0
+  "boardRank": 261
  },
  {
   "id": "Jacoby Brissett",
@@ -3141,8 +2880,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 31,
   "adp": 270,
-  "boardRank": 262,
-  "aav": 0
+  "boardRank": 262
  },
  {
   "id": "DJ Giddens",
@@ -3153,8 +2891,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 83,
   "adp": 276,
-  "boardRank": 263,
-  "aav": 0
+  "boardRank": 263
  },
  {
   "id": "Malik Davis",
@@ -3165,8 +2902,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 84,
   "adp": 277,
-  "boardRank": 264,
-  "aav": 0
+  "boardRank": 264
  },
  {
   "id": "Sean Tucker",
@@ -3177,8 +2913,7 @@ window.PLAYERS = [
   "tier": 8,
   "posRank": 85,
   "adp": 278,
-  "boardRank": 265,
-  "aav": 0
+  "boardRank": 265
  },
  {
   "id": "Mike Gesicki",
@@ -3189,8 +2924,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 30,
   "adp": 289,
-  "boardRank": 266,
-  "aav": 0
+  "boardRank": 266
  },
  {
   "id": "Evan Engram",
@@ -3201,8 +2935,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 31,
   "adp": 290,
-  "boardRank": 267,
-  "aav": 0
+  "boardRank": 267
  },
  {
   "id": "David Njoku",
@@ -3213,8 +2946,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 32,
   "adp": 291,
-  "boardRank": 268,
-  "aav": 0
+  "boardRank": 268
  },
  {
   "id": "Michael Mayer",
@@ -3225,8 +2957,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 33,
   "adp": 292,
-  "boardRank": 269,
-  "aav": 0
+  "boardRank": 269
  },
  {
   "id": "Jake Tonges",
@@ -3237,8 +2968,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 34,
   "adp": 293,
-  "boardRank": 270,
-  "aav": 0
+  "boardRank": 270
  },
  {
   "id": "Tua Tagovailoa",
@@ -3249,8 +2979,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 32,
   "adp": 296,
-  "boardRank": 271,
-  "aav": 0
+  "boardRank": 271
  },
  {
   "id": "Shedeur Sanders",
@@ -3261,8 +2990,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 33,
   "adp": 301,
-  "boardRank": 272,
-  "aav": 0
+  "boardRank": 272
  },
  {
   "id": "Kirk Cousins",
@@ -3273,8 +3001,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 34,
   "adp": 302,
-  "boardRank": 273,
-  "aav": 0
+  "boardRank": 273
  },
  {
   "id": "Michael Penix Jr.",
@@ -3285,8 +3012,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 35,
   "adp": 310,
-  "boardRank": 274,
-  "aav": 0
+  "boardRank": 274
  },
  {
   "id": "Ja'Tavion Sanders",
@@ -3297,8 +3023,7 @@ window.PLAYERS = [
   "tier": 6,
   "posRank": 35,
   "adp": 311,
-  "boardRank": 275,
-  "aav": 0
+  "boardRank": 275
  },
  {
   "id": "J.J. McCarthy",
@@ -3309,8 +3034,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 36,
   "adp": 315,
-  "boardRank": 276,
-  "aav": 0
+  "boardRank": 276
  },
  {
   "id": "Carson Beck",
@@ -3321,8 +3045,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 37,
   "adp": 316,
-  "boardRank": 277,
-  "aav": 0
+  "boardRank": 277
  },
  {
   "id": "Justin Fields",
@@ -3333,8 +3056,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 38,
   "adp": 317,
-  "boardRank": 278,
-  "aav": 0
+  "boardRank": 278
  },
  {
   "id": "Joe Flacco",
@@ -3345,8 +3067,7 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 39,
   "adp": 318,
-  "boardRank": 279,
-  "aav": 0
+  "boardRank": 279
  },
  {
   "id": "Mac Jones",
@@ -3357,7 +3078,6 @@ window.PLAYERS = [
   "tier": 7,
   "posRank": 40,
   "adp": 319,
-  "boardRank": 280,
-  "aav": 0
+  "boardRank": 280
  }
 ];

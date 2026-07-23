@@ -94,7 +94,7 @@ for p in sorted(players, key=lambda x: x['boardRank']):
         "id": p['name'], "name": p['name'], "team": p['team'], "pos": p['pos'],
         "bye": (p['bye'] if p['bye'] else None), "tier": p['tier'],
         "posRank": p['posRank'], "adp": p['overall'],
-        "boardRank": p['boardRank'], "aav": p['aav'],
+        "boardRank": p['boardRank'],
     })
 league = {"teams":10,"scoring":"Full PPR","slot":5,"rounds":16,"season":2026}
 with open('players.js','w') as f:

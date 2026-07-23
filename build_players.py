@@ -29,6 +29,17 @@ WR_OVERRIDE = [
     ("Christian Watson",6),
 ]
 
+# Eric's RB override (canonical ESPN spellings). Do not change without his say-so.
+RB_OVERRIDE = [
+    ("Jahmyr Gibbs",1),("Bijan Robinson",1),
+    ("Ashton Jeanty",2),("Christian McCaffrey",2),("James Cook III",2),
+    ("Omarion Hampton",2),("Jonathan Taylor",2),
+    ("Saquon Barkley",3),("Kenneth Walker III",3),("De'Von Achane",3),
+    ("Derrick Henry",3),("Chase Brown",3),
+    ("Kyren Williams",4),("Josh Jacobs",4),("Cam Skattebo",4),
+    ("Quinshon Judkins",4),("TreVeyon Henderson",4),("Bhayshul Tuten",4),
+]
+
 def norm(s):
     s = s.lower()
     s = re.sub(r"[.\'’,]", "", s)
@@ -43,31 +54,38 @@ for p in players:
 for i, p in enumerate(sorted(players, key=lambda x: x['overall'])):
     p['boardRank'] = i + 1
 
-wrs = [p for p in players if p['pos'] == 'WR']
-wr_by_norm = {norm(p['name']): p for p in wrs}
-unmatched, override_set = [], []
-for name, tier in WR_OVERRIDE:
-    key = norm(name)
-    p = wr_by_norm.get(key)
-    if not p:
-        cands = [q for q in wrs if norm(q['name']).startswith(key) or key in norm(q['name'])]
-        p = cands[0] if len(cands) == 1 else None
-    if not p:
-        unmatched.append(name); continue
-    override_set.append((p, tier))
-if unmatched:
-    print("!! UNMATCHED WR override names:", unmatched); sys.exit(1)
+def apply_override(all_players, pos, override_list, remaining_tier_fn):
+    """Reassign posRank 1..N in override_list order, then remaining players
+    keep their relative ESPN order, tiered by remaining_tier_fn(idx, posRank)."""
+    plist = [p for p in all_players if p['pos'] == pos]
+    by_norm = {norm(p['name']): p for p in plist}
+    unmatched, override_set = [], []
+    for name, tier in override_list:
+        key = norm(name)
+        p = by_norm.get(key)
+        if not p:
+            cands = [q for q in plist if norm(q['name']).startswith(key) or key in norm(q['name'])]
+            p = cands[0] if len(cands) == 1 else None
+        if not p:
+            unmatched.append(name); continue
+        override_set.append((p, tier))
+    if unmatched:
+        print(f"!! UNMATCHED {pos} override names:", unmatched); sys.exit(1)
 
-override_ids = {id(p) for p,_ in override_set}
-remaining = sorted([p for p in wrs if id(p) not in override_ids], key=lambda p: p['posRank'])
-pos = 1
-for p, tier in override_set:
-    p['posRank'] = pos; p['tier'] = tier; pos += 1
-for idx, p in enumerate(remaining):
-    p['posRank'] = pos; p['tier'] = 7 if idx < 16 else 8; pos += 1
+    override_ids = {id(p) for p, _ in override_set}
+    remaining = sorted([p for p in plist if id(p) not in override_ids], key=lambda p: p['posRank'])
+    posn = 1
+    for p, tier in override_set:
+        p['posRank'] = posn; p['tier'] = tier; posn += 1
+    for idx, p in enumerate(remaining):
+        p['posRank'] = posn; p['tier'] = remaining_tier_fn(idx, posn); posn += 1
 
-print("WR override matched:", len(override_set), "remaining:", len(remaining))
-assert [p['posRank'] for p in sorted(wrs, key=lambda p: p['posRank'])] == list(range(1,91))
+    print(f"{pos} override matched:", len(override_set), "remaining:", len(remaining))
+    assert [p['posRank'] for p in sorted(plist, key=lambda p: p['posRank'])] == list(range(1, len(plist)+1))
+    return plist
+
+wrs = apply_override(players, 'WR', WR_OVERRIDE, lambda idx, posrank: 7 if idx < 16 else 8)
+rbs = apply_override(players, 'RB', RB_OVERRIDE, lambda idx, posrank: max(default_tier(posrank, BREAKPOINTS['RB']), 5))
 
 out = []
 for p in sorted(players, key=lambda x: x['boardRank']):

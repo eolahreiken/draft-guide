@@ -41,6 +41,13 @@ RB_OVERRIDE = [
     ("Quinshon Judkins",4),("TreVeyon Henderson",4),("Bhayshul Tuten",4),
 ]
 
+# Eric's TE override (canonical ESPN spellings). Do not change without his say-so.
+TE_OVERRIDE = [
+    ("Brock Bowers",1),("Trey McBride",1),
+    ("Colston Loveland",2),("Tyler Warren",2),("Tucker Kraft",2),
+    ("Kyle Pitts Sr.",2),("Sam LaPorta",2),("Harold Fannin Jr.",2),
+]
+
 def norm(s):
     s = s.lower()
     s = re.sub(r"[.\'’,]", "", s)
@@ -57,7 +64,8 @@ for i, p in enumerate(sorted(players, key=lambda x: x['overall'])):
 
 def apply_override(all_players, pos, override_list, remaining_tier_fn):
     """Reassign posRank 1..N in override_list order, then remaining players
-    keep their relative ESPN order, tiered by remaining_tier_fn(idx, posRank)."""
+    keep their relative ESPN order, tiered by remaining_tier_fn(idx, posRank).
+    remaining_tier_fn=None leaves each remaining player's existing tier alone."""
     plist = [p for p in all_players if p['pos'] == pos]
     by_norm = {norm(p['name']): p for p in plist}
     unmatched, override_set = [], []
@@ -79,7 +87,10 @@ def apply_override(all_players, pos, override_list, remaining_tier_fn):
     for p, tier in override_set:
         p['posRank'] = posn; p['tier'] = tier; posn += 1
     for idx, p in enumerate(remaining):
-        p['posRank'] = posn; p['tier'] = remaining_tier_fn(idx, posn); posn += 1
+        p['posRank'] = posn
+        if remaining_tier_fn is not None:
+            p['tier'] = remaining_tier_fn(idx, posn)
+        posn += 1
 
     print(f"{pos} override matched:", len(override_set), "remaining:", len(remaining))
     assert [p['posRank'] for p in sorted(plist, key=lambda p: p['posRank'])] == list(range(1, len(plist)+1))
@@ -87,6 +98,7 @@ def apply_override(all_players, pos, override_list, remaining_tier_fn):
 
 wrs = apply_override(players, 'WR', WR_OVERRIDE, lambda idx, posrank: 7 if idx < 16 else 8)
 rbs = apply_override(players, 'RB', RB_OVERRIDE, lambda idx, posrank: max(default_tier(posrank, BREAKPOINTS['RB']), 5))
+tes = apply_override(players, 'TE', TE_OVERRIDE, None)
 
 out = []
 for p in sorted(players, key=lambda x: x['boardRank']):

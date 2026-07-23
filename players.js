@@ -172,7 +172,7 @@ window.PLAYERS = [
   "pos": "TE",
   "bye": 14,
   "tier": 1,
-  "posRank": 1,
+  "posRank": 2,
   "adp": 16,
   "boardRank": 16
  },
@@ -260,7 +260,7 @@ window.PLAYERS = [
   "pos": "TE",
   "bye": 13,
   "tier": 1,
-  "posRank": 2,
+  "posRank": 1,
   "adp": 24,
   "boardRank": 24
  },
@@ -534,7 +534,7 @@ window.PLAYERS = [
   "team": "CHI",
   "pos": "TE",
   "bye": 10,
-  "tier": 1,
+  "tier": 2,
   "posRank": 3,
   "adp": 49,
   "boardRank": 49
@@ -777,7 +777,7 @@ window.PLAYERS = [
   "pos": "TE",
   "bye": 11,
   "tier": 2,
-  "posRank": 5,
+  "posRank": 6,
   "adp": 71,
   "boardRank": 71
  },
@@ -788,7 +788,7 @@ window.PLAYERS = [
   "pos": "TE",
   "bye": 11,
   "tier": 2,
-  "posRank": 6,
+  "posRank": 8,
   "adp": 72,
   "boardRank": 72
  },
@@ -798,7 +798,7 @@ window.PLAYERS = [
   "team": "DET",
   "pos": "TE",
   "bye": 6,
-  "tier": 3,
+  "tier": 2,
   "posRank": 7,
   "adp": 73,
   "boardRank": 73
@@ -1107,7 +1107,7 @@ window.PLAYERS = [
   "pos": "TE",
   "bye": 8,
   "tier": 3,
-  "posRank": 8,
+  "posRank": 9,
   "adp": 101,
   "boardRank": 101
  },
@@ -1118,7 +1118,7 @@ window.PLAYERS = [
   "pos": "TE",
   "bye": 10,
   "tier": 3,
-  "posRank": 9,
+  "posRank": 10,
   "adp": 102,
   "boardRank": 102
  },
@@ -1129,7 +1129,7 @@ window.PLAYERS = [
   "pos": "TE",
   "bye": 5,
   "tier": 3,
-  "posRank": 10,
+  "posRank": 11,
   "adp": 103,
   "boardRank": 103
  },
@@ -1140,7 +1140,7 @@ window.PLAYERS = [
   "pos": "TE",
   "bye": 14,
   "tier": 4,
-  "posRank": 11,
+  "posRank": 12,
   "adp": 104,
   "boardRank": 104
  },
@@ -1195,7 +1195,7 @@ window.PLAYERS = [
   "pos": "TE",
   "bye": 13,
   "tier": 4,
-  "posRank": 12,
+  "posRank": 13,
   "adp": 109,
   "boardRank": 109
  },
@@ -1205,8 +1205,8 @@ window.PLAYERS = [
   "team": "GB",
   "pos": "TE",
   "bye": 11,
-  "tier": 4,
-  "posRank": 13,
+  "tier": 2,
+  "posRank": 5,
   "adp": 110,
   "boardRank": 110
  },

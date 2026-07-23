@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026 Fantasy Draft Guide</title>
+<style>
+  :root {
+    --bg: #0e1116;
+    --panel: #161b22;
+    --panel2: #1c2330;
+    --border: #2a3242;
+    --text: #e6e9ef;
+    --text-dim: #9aa4b2;
+    --text-faint: #5c6675;
+    --accent: #4a9eff;
+
+    --t1: #e5484d;
+    --t2: #f3762d;
+    --t3: #ecb32c;
+    --t4: #3fb950;
+    --t5: #2dd4bf;
+    --t6: #4a9eff;
+    --t7: #a371f7;
+    --t8: #6e7681;
+
+    --qb: #e5484d;
+    --rb: #3fb950;
+    --wr: #4a9eff;
+    --te: #f3762d;
+    --k:  #a371f7;
+    --dst:#2dd4bf;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    height: 100%;
+  }
+  ::selection { background: var(--accent); color: #fff; }
+
+  #app { display: flex; flex-direction: column; height: 100vh; }
+
+  /* Top bar */
+  #topbar {
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 16px; background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  #topbar h1 { font-size: 16px; margin: 0 16px 0 0; white-space: nowrap; color: var(--accent); }
+  #search {
+    background: var(--panel2); border: 1px solid var(--border); color: var(--text);
+    padding: 7px 10px; border-radius: 6px; font-size: 14px; min-width: 180px;
+  }
+  #search:focus { outline: none; border-color: var(--accent); }
+  .stat { font-size: 13px; color: var(--text-dim); white-space: nowrap; }
+  .stat b { color: var(--text); }
+  #topbar label { font-size: 13px; color: var(--text-dim); display: flex; align-items: center; gap: 5px; white-space: nowrap; }
+  #slotInput {
+    width: 48px; background: var(--panel2); border: 1px solid var(--border); color: var(--text);
+    padding: 5px 6px; border-radius: 6px; font-size: 13px;
+  }
+  .btn {
+    background: var(--panel2); border: 1px solid var(--border); color: var(--text);
+    padding: 7px 12px; border-radius: 6px; font-size: 13px; cursor: pointer;
+  }
+  .btn:hover { border-color: var(--accent); }
+  .btn.danger:hover { border-color: var(--t1); color: var(--t1); }
+  .spacer { flex: 1; }
+
+  /* Tabs */
+  #tabs {
+    display: flex; gap: 2px; padding: 8px 16px 0; background: var(--panel);
+    border-bottom: 1px solid var(--border); overflow-x: auto;
+  }
+  .tab {
+    padding: 8px 16px; font-size: 13px; font-weight: 600; color: var(--text-dim);
+    cursor: pointer; border-bottom: 2px solid transparent; white-space: nowrap;
+  }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* Main layout */
+  #main { flex: 1; display: flex; overflow: hidden; }
+  #listPane { flex: 1; overflow-y: auto; padding: 12px 16px 40px; }
+  #sidebar {
+    width: 300px; flex-shrink: 0; overflow-y: auto; border-left: 1px solid var(--border);
+    background: var(--panel); padding: 14px;
+  }
+
+  .tier-header {
+    display: flex; align-items: center; gap: 8px;
+    margin: 18px 0 6px; font-size: 13px; font-weight: 700; color: var(--text-dim);
+    text-transform: uppercase; letter-spacing: 0.04em;
+  }
+  .tier-header:first-child { margin-top: 0; }
+  .tier-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+  .row {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--panel2); border: 1px solid var(--border); border-left: 4px solid transparent;
+    border-radius: 6px; padding: 8px 10px; margin-bottom: 4px; cursor: pointer;
+    transition: opacity .1s;
+  }
+  .row:hover { border-color: var(--accent); }
+  .row.taken { opacity: 0.4; }
+  .row.taken .rname { text-decoration: line-through; }
+  .row.mine { border-color: #ffd54a; box-shadow: 0 0 0 1px #ffd54a inset; }
+
+  .rrank { width: 32px; text-align: right; color: var(--text-faint); font-size: 12px; flex-shrink: 0; }
+  .rstar {
+    background: none; border: none; font-size: 16px; cursor: pointer; color: var(--text-faint);
+    width: 22px; flex-shrink: 0; padding: 0;
+  }
+  .rstar.on { color: #ffd54a; }
+  .rname { font-size: 14px; font-weight: 600; flex: 1; min-width: 90px; }
+  .rteam { font-size: 12px; color: var(--text-dim); width: 36px; flex-shrink: 0; }
+  .rbye { font-size: 12px; color: var(--text-faint); width: 34px; flex-shrink: 0; text-align: center; }
+  .radp { font-size: 12px; color: var(--text-dim); width: 44px; flex-shrink: 0; text-align: right; }
+  .raav { font-size: 12px; color: var(--text-dim); width: 44px; flex-shrink: 0; text-align: right; }
+
+  .badge {
+    font-size: 10px; font-weight: 800; padding: 2px 6px; border-radius: 4px;
+    color: #0e1116; flex-shrink: 0; width: 30px; text-align: center;
+  }
+  .tbadge {
+    font-size: 10px; font-weight: 800; padding: 2px 6px; border-radius: 4px;
+    color: #fff; flex-shrink: 0; width: 26px; text-align: center;
+  }
+
+  /* Sidebar */
+  .side-section { margin-bottom: 22px; }
+  .side-title {
+    font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em;
+    color: var(--text-faint); margin-bottom: 8px;
+  }
+  .clock-box {
+    background: var(--panel2); border: 1px solid var(--border); border-radius: 8px; padding: 12px;
+  }
+  .clock-pick { font-size: 26px; font-weight: 800; color: var(--accent); }
+  .clock-label { font-size: 11px; color: var(--text-dim); margin-bottom: 2px; }
+  .clock-sub { font-size: 13px; color: var(--text-dim); margin-top: 8px; }
+  .clock-sub b { color: var(--text); }
+
+  .best-card {
+    display: flex; align-items: center; gap: 8px; background: var(--panel2);
+    border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; margin-bottom: 4px;
+    cursor: pointer; font-size: 12px;
+  }
+  .best-card:hover { border-color: var(--accent); }
+  .best-card .pos-tag { width: 28px; }
+  .best-card .name { flex: 1; font-weight: 600; }
+  .best-card .empty { color: var(--text-faint); font-style: italic; }
+
+  .ba-card { font-size: 12px; }
+
+  #emptyMsg { color: var(--text-faint); font-size: 13px; padding: 20px 0; text-align: center; }
+
+  @media (max-width: 800px) {
+    #sidebar { display: none; }
+    .rteam, .rbye { display: none; }
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="topbar">
+    <h1>🏈 2026 Draft Guide</h1>
+    <input id="search" type="text" placeholder="Search name or team...">
+    <span class="stat">Drafted: <b id="draftedCount">0</b></span>
+    <span class="stat">Left: <b id="leftCount">280</b></span>
+    <label><input type="checkbox" id="hideDrafted"> Hide drafted</label>
+    <label>Slot <input id="slotInput" type="number" min="1" max="10" value="5"></label>
+    <div class="spacer"></div>
+    <button class="btn danger" id="resetBtn">Reset draft</button>
+  </div>
+
+  <div id="tabs">
+    <div class="tab" data-view="BIG">Big Board</div>
+    <div class="tab" data-view="QB">QB</div>
+    <div class="tab" data-view="RB">RB</div>
+    <div class="tab" data-view="WR">WR</div>
+    <div class="tab" data-view="TE">TE</div>
+    <div class="tab" data-view="K">K</div>
+    <div class="tab" data-view="DST">DST</div>
+    <div class="tab" data-view="MINE">My Team</div>
+  </div>
+
+  <div id="main">
+    <div id="listPane"></div>
+    <div id="sidebar">
+      <div class="side-section">
+        <div class="side-title">On the clock</div>
+        <div class="clock-box">
+          <div class="clock-label">Current overall pick</div>
+          <div class="clock-pick" id="curPick">1</div>
+          <div class="clock-sub">My next pick: <b id="myNextPick">—</b></div>
+          <div class="clock-sub">My round: <b id="myNextRound">—</b></div>
+        </div>
+      </div>
+      <div class="side-section">
+        <div class="side-title">Best at each position</div>
+        <div id="bestByPos"></div>
+      </div>
+      <div class="side-section">
+        <div class="side-title">Best available</div>
+        <div id="bestAvail"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="players.js"></script>
+<script>
+(function() {
+  "use strict";
+
+  var LEAGUE = window.LEAGUE;
+  var PLAYERS = window.PLAYERS;
+  var STORE_KEY = "draftguide_" + LEAGUE.season;
+
+  var TIER_COLOR = {1:'var(--t1)',2:'var(--t2)',3:'var(--t3)',4:'var(--t4)',5:'var(--t5)',6:'var(--t6)',7:'var(--t7)',8:'var(--t8)'};
+  var POS_COLOR = {QB:'var(--qb)',RB:'var(--rb)',WR:'var(--wr)',TE:'var(--te)',K:'var(--k)',DST:'var(--dst)'};
+  var POSITIONS = ['QB','RB','WR','TE','K','DST'];
+
+  var state = loadState();
+
+  function defaultState() {
+    return { taken: [], mine: [], slot: 5, hideDrafted: false, view: 'BIG' };
+  }
+  function loadState() {
+    try {
+      var raw = localStorage.getItem(STORE_KEY);
+      if (!raw) return defaultState();
+      var parsed = JSON.parse(raw);
+      var d = defaultState();
+      return {
+        taken: Array.isArray(parsed.taken) ? parsed.taken : d.taken,
+        mine: Array.isArray(parsed.mine) ? parsed.mine : d.mine,
+        slot: parsed.slot || d.slot,
+        hideDrafted: !!parsed.hideDrafted,
+        view: parsed.view || d.view,
+      };
+    } catch (e) { return defaultState(); }
+  }
+  function saveState() {
+    localStorage.setItem(STORE_KEY, JSON.stringify(state));
+  }
+
+  var takenSet = new Set(state.taken);
+  var mineSet = new Set(state.mine);
+
+  var byId = {};
+  PLAYERS.forEach(function(p) { byId[p.id] = p; });
+
+  // ---------- DOM refs ----------
+  var listPane = document.getElementById('listPane');
+  var searchBox = document.getElementById('search');
+  var draftedCountEl = document.getElementById('draftedCount');
+  var leftCountEl = document.getElementById('leftCount');
+  var hideDraftedBox = document.getElementById('hideDrafted');
+  var slotInput = document.getElementById('slotInput');
+  var resetBtn = document.getElementById('resetBtn');
+  var curPickEl = document.getElementById('curPick');
+  var myNextPickEl = document.getElementById('myNextPick');
+  var myNextRoundEl = document.getElementById('myNextRound');
+  var bestByPosEl = document.getElementById('bestByPos');
+  var bestAvailEl = document.getElementById('bestAvail');
+  var tabs = document.querySelectorAll('.tab');
+
+  hideDraftedBox.checked = state.hideDrafted;
+  slotInput.value = state.slot;
+
+  var searchQuery = '';
+
+  // ---------- Draft logic ----------
+  function isTaken(id) { return takenSet.has(id); }
+  function isMine(id) { return mineSet.has(id); }
+
+  function toggleTaken(id) {
+    if (takenSet.has(id)) {
+      takenSet.delete(id);
+      mineSet.delete(id); // un-drafting also un-mines
+    } else {
+      takenSet.add(id);
+    }
+    persistAndRender();
+  }
+
+  function toggleMine(id) {
+    if (mineSet.has(id)) {
+      mineSet.delete(id);
+    } else {
+      mineSet.add(id);
+      takenSet.add(id); // mining also marks taken
+    }
+    persistAndRender();
+  }
+
+  function persistAndRender() {
+    state.taken = Array.from(takenSet);
+    state.mine = Array.from(mineSet);
+    saveState();
+    render();
+  }
+
+  // ---------- Snake draft math ----------
+  function myPickForRound(r, slot, teams) {
+    return (r - 1) * teams + (r % 2 === 1 ? slot : (teams - slot + 1));
+  }
+  function computeClock() {
+    var teams = LEAGUE.teams, rounds = LEAGUE.rounds;
+    var slot = Math.min(Math.max(parseInt(slotInput.value, 10) || 1, 1), teams);
+    var draftedCount = takenSet.size;
+    var currentOverall = draftedCount + 1;
+
+    var nextPick = null, nextRound = null;
+    for (var r = 1; r <= rounds; r++) {
+      var pk = myPickForRound(r, slot, teams);
+      if (pk >= currentOverall) { nextPick = pk; nextRound = r; break; }
+    }
+    curPickEl.textContent = currentOverall;
+    myNextPickEl.textContent = nextPick != null ? nextPick : '—';
+    myNextRoundEl.textContent = nextRound != null ? nextRound : '—';
+  }
+
+  // ---------- Sidebar: best at each position / best available ----------
+  function renderSidebarLists() {
+    var undrafted = PLAYERS.filter(function(p) { return !isTaken(p.id); });
+
+    bestByPosEl.innerHTML = '';
+    POSITIONS.forEach(function(pos) {
+      var candidates = undrafted.filter(function(p) { return p.pos === pos; })
+        .sort(function(a,b){ return a.posRank - b.posRank; });
+      var card = document.createElement('div');
+      card.className = 'best-card';
+      if (candidates.length === 0) {
+        card.innerHTML = '<span class="badge" style="background:' + POS_COLOR[pos] + '">' + pos + '</span><span class="empty">none left</span>';
+      } else {
+        var p = candidates[0];
+        card.innerHTML = '<span class="badge" style="background:' + POS_COLOR[pos] + '">' + pos + '</span>' +
+          '<span class="name">' + escapeHtml(p.name) + '</span>' +
+          '<span style="color:var(--text-faint)">#' + p.posRank + '</span>';
+      }
+      card.addEventListener('click', function() { switchView(pos); });
+      bestByPosEl.appendChild(card);
+    });
+
+    bestAvailEl.innerHTML = '';
+    var top12 = undrafted.slice().sort(function(a,b){ return a.boardRank - b.boardRank; }).slice(0, 12);
+    if (top12.length === 0) {
+      bestAvailEl.innerHTML = '<div class="empty" style="color:var(--text-faint);font-size:12px;">All drafted!</div>';
+    }
+    top12.forEach(function(p) {
+      var card = document.createElement('div');
+      card.className = 'best-card ba-card';
+      card.innerHTML = '<span style="color:var(--text-faint);width:20px;">' + p.boardRank + '</span>' +
+        '<span class="badge" style="background:' + POS_COLOR[p.pos] + '">' + p.pos + '</span>' +
+        '<span class="name">' + escapeHtml(p.name) + '</span>';
+      card.addEventListener('click', function() { toggleTaken(p.id); });
+      bestAvailEl.appendChild(card);
+    });
+  }
+
+  // ---------- Row rendering ----------
+  function escapeHtml(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function(c) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+  function makeRow(p, rankField) {
+    var row = document.createElement('div');
+    row.className = 'row';
+    if (isTaken(p.id)) row.className += ' taken';
+    if (isMine(p.id)) row.className += ' mine';
+    row.style.borderLeftColor = TIER_COLOR[p.tier];
+
+    var rank = rankField === 'posRank' ? p.posRank : p.boardRank;
+
+    row.innerHTML =
+      '<span class="rrank">' + rank + '</span>' +
+      '<button class="rstar' + (isMine(p.id) ? ' on' : '') + '" title="Mark mine">★</button>' +
+      '<span class="rname">' + escapeHtml(p.name) + '</span>' +
+      '<span class="badge" style="background:' + POS_COLOR[p.pos] + '">' + p.pos + '</span>' +
+      '<span class="rteam">' + (p.team || '') + '</span>' +
+      '<span class="rbye">' + (p.bye != null ? p.bye : '—') + '</span>' +
+      '<span class="radp">ADP ' + p.adp + '</span>' +
+      '<span class="raav">$' + p.aav + '</span>' +
+      '<span class="tbadge" style="background:' + TIER_COLOR[p.tier] + '">T' + p.tier + '</span>';
+
+    var star = row.querySelector('.rstar');
+    star.addEventListener('click', function(e) {
+      e.stopPropagation();
+      toggleMine(p.id);
+    });
+    row.addEventListener('click', function() {
+      toggleTaken(p.id);
+    });
+    return row;
+  }
+
+  function matchesSearch(p) {
+    if (!searchQuery) return true;
+    var q = searchQuery.toLowerCase();
+    return p.name.toLowerCase().indexOf(q) !== -1 ||
+      (p.team && p.team.toLowerCase().indexOf(q) !== -1);
+  }
+
+  function visiblePlayers(list) {
+    return list.filter(function(p) {
+      if (state.hideDrafted && isTaken(p.id)) return false;
+      return matchesSearch(p);
+    });
+  }
+
+  // ---------- Main list rendering per view ----------
+  function renderList() {
+    listPane.innerHTML = '';
+    var view = state.view;
+
+    if (view === 'BIG') {
+      var list = visiblePlayers(PLAYERS.slice().sort(function(a,b){ return a.boardRank - b.boardRank; }));
+      renderFlat(list, 'boardRank');
+      return;
+    }
+
+    if (view === 'MINE') {
+      var mine = PLAYERS.filter(function(p){ return isMine(p.id); })
+        .sort(function(a,b){ return a.boardRank - b.boardRank; });
+      mine = mine.filter(matchesSearch);
+      if (mine.length === 0) {
+        listPane.innerHTML = '<div id="emptyMsg">No players on your team yet. Click the ★ on a player to add them.</div>';
+        return;
+      }
+      renderFlat(mine, 'boardRank');
+      return;
+    }
+
+    // position view: group by tier
+    var posList = visiblePlayers(PLAYERS.filter(function(p){ return p.pos === view; })
+      .sort(function(a,b){ return a.posRank - b.posRank; }));
+
+    if (posList.length === 0) {
+      listPane.innerHTML = '<div id="emptyMsg">No players match.</div>';
+      return;
+    }
+
+    var tiers = {};
+    posList.forEach(function(p) {
+      if (!tiers[p.tier]) tiers[p.tier] = [];
+      tiers[p.tier].push(p);
+    });
+    var tierNums = Object.keys(tiers).map(Number).sort(function(a,b){ return a-b; });
+    tierNums.forEach(function(t) {
+      var header = document.createElement('div');
+      header.className = 'tier-header';
+      header.innerHTML = '<span class="tier-dot" style="background:' + TIER_COLOR[t] + '"></span> Tier ' + t;
+      listPane.appendChild(header);
+      tiers[t].forEach(function(p) {
+        listPane.appendChild(makeRow(p, 'posRank'));
+      });
+    });
+  }
+
+  function renderFlat(list, rankField) {
+    if (list.length === 0) {
+      listPane.innerHTML = '<div id="emptyMsg">No players match.</div>';
+      return;
+    }
+    list.forEach(function(p) {
+      listPane.appendChild(makeRow(p, rankField));
+    });
+  }
+
+  // ---------- Top-level render ----------
+  function render() {
+    renderList();
+    renderSidebarLists();
+    computeClock();
+    draftedCountEl.textContent = takenSet.size;
+    leftCountEl.textContent = PLAYERS.length - takenSet.size;
+    tabs.forEach(function(t) {
+      t.classList.toggle('active', t.getAttribute('data-view') === state.view);
+    });
+  }
+
+  function switchView(view) {
+    state.view = view;
+    saveState();
+    render();
+  }
+
+  // ---------- Event wiring ----------
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      switchView(tab.getAttribute('data-view'));
+    });
+  });
+
+  searchBox.addEventListener('input', function() {
+    searchQuery = searchBox.value;
+    renderList();
+  });
+
+  hideDraftedBox.addEventListener('change', function() {
+    state.hideDrafted = hideDraftedBox.checked;
+    saveState();
+    render();
+  });
+
+  slotInput.addEventListener('change', function() {
+    var v = Math.min(Math.max(parseInt(slotInput.value, 10) || 1, 1), LEAGUE.teams);
+    slotInput.value = v;
+    state.slot = v;
+    saveState();
+    computeClock();
+  });
+
+  resetBtn.addEventListener('click', function() {
+    if (confirm('Reset the entire draft? This clears all taken players and your team.')) {
+      takenSet.clear();
+      mineSet.clear();
+      persistAndRender();
+    }
+  });
+
+  // ---------- Init ----------
+  render();
+})();
+</script>
+</body>
+</html>
